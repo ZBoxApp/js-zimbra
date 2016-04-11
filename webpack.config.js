@@ -12,6 +12,8 @@ module.exports = {
     ]
   },
   output: {
+    library: 'jszimbra',
+    libraryTarget: 'var',
     path: path.resolve(__dirname, 'test', 'js'),
     publicPath: '/',
     filename: 'jszimbra.js'
